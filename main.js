@@ -10,9 +10,10 @@ function isValidPassword(username, password) {
         return false;
     } else if (password.indexOf(" ") != -1) {
         return false;
-    } else if (length=password.length < 8) {
+    } else if (password.length < 8) {
         return false;
     } else {
         return true;
     }
 }
+
